@@ -1,0 +1,81 @@
+.containerForm {
+  width: 100vw;
+  height: 100vh;
+  background: #6C7A89;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.divForm {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 600px;
+}
+
+
+.buttonForm {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  border: 2px solid #04AA6D;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 10px;
+}
+
+.buttonForm:hover {
+  background-color: white;
+  color: #04AA6D;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonForm:active {
+  background-color: #04AA6D;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.35), 0 17px 50px 0 rgba(0, 0, 0, 0.25);
+  transform: translateY(4px);
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.buttonDiv {
+  text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+
+}
+
+h1 {
+  align-self: center;
+}
